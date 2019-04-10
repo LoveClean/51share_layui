@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>首页--51纷享App后台管理</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../layui/css/layui.css" media="all"/>
+    <link rel="stylesheet" href="../css/public.css" media="all"/>
+</head>
+<body class="childrenBody">
+<blockquote class="layui-elem-quote layui-bg-green">
+    <div id="nowTime"></div>
+</blockquote>
+<div class="layui-row layui-col-space10 panel_box">
+    <div class="panel layui-col-xs12 layui-col-sm6 layui-col-md6 layui-col-lg3">
+        <a href="javascript:;" data-url="page/article/articleList.html">
+            <div class="panel_icon layui-bg-black">
+                <i class="layui-anim seraph icon-text"></i>
+            </div>
+            <div class="panel_word articleCounts">
+                <span></span>
+                <em>文章总数</em>
+                <cite class="layui-hide">文章列表</cite>
+            </div>
+        </a>
+    </div>
+    <div class="panel layui-col-xs12 layui-col-sm6 layui-col-md6 layui-col-lg3">
+        <a href="javascript:;" data-url="page/commodity/commodityList.html">
+            <div class="panel_icon layui-bg-red">
+                <i class="layui-anim layui-icon" data-icon="&#xe657;">&#xe657;</i>
+            </div>
+            <div class="panel_word commodityCounts">
+                <span></span>
+                <em>商品总数</em>
+                <cite class="layui-hide">商品列表</cite>
+            </div>
+        </a>
+    </div>
+    <div class="panel layui-col-xs12 layui-col-sm6 layui-col-md6 layui-col-lg3">
+        <a href="javascript:;" data-url="page/member/memberList.html">
+            <div class="panel_icon layui-bg-orange">
+                <i class="layui-anim seraph icon-icon10" data-icon="icon-icon10"></i>
+            </div>
+            <div class="panel_word memberCounts">
+                <span></span>
+                <em>会员总数</em>
+                <cite class="layui-hide">用户中心</cite>
+            </div>
+        </a>
+    </div>
+    <div class="panel layui-col-xs12 layui-col-sm6 layui-col-md6 layui-col-lg3">
+        <a href="javascript:;">
+            <div class="panel_icon layui-bg-blue">
+                <i class="layui-anim seraph icon-clock"></i>
+            </div>
+            <div class="panel_word">
+                <span class="loginTime"></span>
+                <cite>上次登录时间</cite>
+            </div>
+        </a>
+    </div>
+</div>
+<blockquote class="layui-elem-quote main_btn">
+    <div class="layui-row layui-col-space10 panel_box">
+        <div class="layui-col-xs12 layui-col-sm12 layui-col-md5 layui-col-lg5">
+            <div id="main" class="panel1 layui-col-xs12 layui-col-sm12 layui-col-md12 layui-col-lg12"></div>
+        </div>
+        <div class="layui-col-xs12 layui-col-sm12 layui-col-md7 layui-col-lg7">
+            <div id="article" class="panel2 layui-col-xs12 layui-col-sm12 layui-col-md12 layui-col-lg12"></div>
+            <div id="commodity" class="panel2 layui-col-xs12 layui-col-sm12 layui-col-md12 layui-col-lg12"></div>
+        </div>
+    </div>
+</blockquote>
+<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+<script type="text/javascript" src="../layui/layui.js"></script>
+<script src="../js/echarts.js"></script>
+<script type="text/javascript" src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>系统设置--51纷享App后台管理</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../../layui/css/layui.css" media="all"/>
+    <link rel="stylesheet" href="../../css/public.css" media="all"/>
+</head>
+<body class="childrenBody">
+<form class="layui-form layui-row layui-col-space10">
+    <div class="layui-col-md12 layui-col-xs12">
+        <blockquote class="layui-elem-quote main_btn">
+            <div class="layui-row layui-col-space10">
+                    <label class="layui-form-label">分享上限数</label>
+                    <div class="layui-input-inline">
+                        <input type="text" class="layui-input apex" lay-verify="apex"
+                               placeholder="必填">
+                    </div>次
+            </div>
+            <div class="layui-row layui-col-space10">
+                <label class="layui-form-label">有效时间隔</label>
+                <div class="layui-input-inline">
+                    <input type="text" class="layui-input time" lay-verify="time"
+                           placeholder="必填">
+                </div>秒
+            </div>
+            <div class="layui-row layui-col-space10">
+                <label class="layui-form-label">等待时间</label>
+                <div class="layui-input-inline">
+                    <input type="text" class="layui-input browseTime layui-btn-disabled" lay-verify="browseTime"
+                           placeholder="必填" disabled>
+                </div>秒
+            </div>
+        </blockquote>
+        <div class="layui-form-item magb0">
+            <hr class="layui-bg-gray"/>
+            <div class="layui-right">
+                <a class="layui-btn" lay-filter="addNews" lay-submit><i
+                        class="layui-icon">&#xe609;</i>确认更新</a>
+            </div>
+        </div>
+    </div>
+</form>
+<script type="text/javascript" src="../../js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="../../js/jquery.cookie.js"></script>
+<script type="text/javascript" src="../../layui/layui.js"></script>
+<script type="text/javascript" src="system.js"></script>
+</body>
+</html>
